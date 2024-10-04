@@ -1,0 +1,21 @@
+[
+    {
+        "nomeProduto": "Abominable Hoodie",
+        "tamanho": "XS",
+        "cor": "Blue"
+        "quantidade": 3
+    },
+    {
+        "nomeProduto": "Arcadio Gym Short",
+        "tamanho": "36",
+        "cor": "Red"
+        "quantidade": 3
+    },
+    {
+        "nomeProduto": "Atlas Fitness Tank",
+        "tamanho": "L",
+        "cor": "Blue"
+        "quantidade": 3
+    }
+    
+]

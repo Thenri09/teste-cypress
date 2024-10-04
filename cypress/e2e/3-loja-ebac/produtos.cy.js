@@ -12,13 +12,14 @@ describe('Funcionalidade: Produtos', () => {
         cy.get('#tab-title-description > a').should('contain', 'Descrição')
     });
 
-    it.only('Deve buscar um produto com sucesso', () => {
+    it.('Deve buscar um produto com sucesso', () => {
         let produto = 'Apollo Running Short'
         produtosPage.buscarProduto(produto)
         cy.get('.product_title').should('contain', produto)
     });
 
-    it('Deve visitar a página do produtos', () => {
+    it.only('Deve visitar a página do produtos', () => {
+        produtosPage.visitarProduto('Apollo-Running-Short')
         
     });
 
